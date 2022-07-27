@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="header">
+            <div class="logo">
+                <img src="./img/logo.png" alt="">
+            </div>
+            <div class="search-box">
+                <div class="in">
+                    <div class="search">
+                        <input type="text" placeholder="黎明之夜">
+                        <button><img src="./img/search.png"></button>
+                    </div>
+                    <div class="search-keywords">
+                        <span>黎明之海</span>
+                        <span>剑网3缘起</span>
+                        <span>怀旧频道</span>
+                        <span>开局送赵云</span>
+                    </div>
+                </div>
+            </div>
+            <ul class="plist-recmapp">
+                <ul>
+                    <img src="./img/173app.png" alt="">
+                    <span>一起一起上</span>
+                </ul>
+            </ul>
+        </div>
+
+        <div class="nav">
+            <div class="nav-in">
+                <div class="nav-main">
+                    <ul class="nav-list">
+                        <li class="item">咨询中心</li>
+                        <li class="item">新游戏 · 今日开服</li>
+                        <li class="item">游戏下载</li>
+                        <li class="item">发号平台</li>
+                        <li class="item">有料社区</li>
+                        <li class="item">17173影视</li>
+                        <li class="item">17173视频</li>
+                        <li class="item">新页游 · 开测 · 开服</li>
+                    </ul>
+                </div>
+
+                <div class="nav-sub">
+                    <ul class="nav-list">
+                        <li class="items">排行榜</li>
+                        <li class="items">找游戏</li>
+                        <li class="items">游戏评测</li>
+                        <li class="items">新游戏测试表</li>
+                        <li class="items">怀旧服测试表</li>
+                        <li class="items">过审游戏</li>
+                        <li class="items">/</li>
+                        <li class="items">100%拿周边</li>
+                        <li class="items">/</li>
+                        <li class="items">有偿试玩</li>
+                        <li class="items">/</li>
+                        <li class="items">鉴赏家</li>
+                        <li class="items">/</li>
+                        <li class="items">次世代</li>
+                        <li class="items">/</li>
+                        <li class="items">元宇宙</li>
+                        <li class="items">/</li>
+                        <li class="items">更多?</li>
+                    </ul>
+                </div>
+
+                <div class="nav-site">
+                    <ul class="nav-list">
+                        <li class="itemss">H5小游戏</li>
+                        <li class="itemss">网页游戏</li>
+                    </ul>
+                </div>
+
+                <div class="daily">
+                    今日测试：
+                    <span>3款游戏</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="game">
+            <img src="./img/game1.jpg" alt="">
+            <img src="./img/game2.jpg" alt="">
+        </div>
+
+        <div class=""></div>
+    </div>
+</body>
+<style>
+    body,
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .header {
+        position: relative;
+        width: 1100px;
+        margin: 0 auto;
+        height: 105px;
+        background: #fff;
+    }
+
+    .logo {
+        position: absolute;
+        top: 36px;
+        left: 18px;
+    }
+
+    .search-box {
+        display: table;
+        width: 410px;
+        padding: 30px 20px 0 410px;
+    }
+
+    .in {
+        display: table-cell;
+        width: 100%;
+        height: 74px;
+        vertical-align: middle;
+    }
+
+    .search {
+        position: relative;
+        z-index: 3;
+        background: none;
+        border-color: #ffcd00;
+        height: 36px;
+        padding: 0 210px 0 10px;
+        border: 1px solid #ffcd00;
+        border-radius: 2px;
+        display: flex;
+        align-items: center;
+    }
+
+    input {
+        width: 100%;
+        height: 30px;
+        color: #ccc;
+        border: 0;
+        outline: none;
+    }
+
+    button {
+        position: absolute;
+        top: -1px;
+        right: -1px;
+        width: 60px;
+        height: 38px;
+        background: #ffcd00;
+        border: 0;
+        cursor: pointer;
+        border-top-right-radius: 2px;
+        border-bottom-right-radius: 2px;
+    }
+
+    .search-keywords {
+        font-size: 12px;
+        margin-top: 3px;
+
+    }
+
+    .plist-recmapp {
+        position: absolute;
+        top: 40px;
+        right: 20px;
+        overflow: hidden;
+    }
+
+    .plist-recmapp img {
+        float: left;
+        width: 35px;
+        height: 35px;
+        margin-right: 7px;
+        border-radius: 8px;
+    }
+
+    .plist-recmapp span {
+        line-height: 35px;
+        color: #666;
+        font-size: 10px;
+    }
+
+    .nav {
+        height: 40px;
+        margin-bottom: 35px;
+        font-size: 14px;
+        border-bottom: 3px solid #ffcd00;
+        background: #fff;
+    }
+
+    .nav-in {
+        position: relative;
+        z-index: 410;
+        width: 1100px;
+        margin: 0 auto -35px;
+    }
+
+    .nav-main {
+        padding-left: 2px;
+        height: 40px;
+        line-height: 40px;
+        margin-bottom: 3px;
+        font-size: 16px;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    .item {
+        margin-right: 25px;
+        float: left;
+    }
+
+    .itemss {
+        margin-right: 25px;
+        float: left;
+        color: #666;
+    }
+
+    .items {
+        margin-right: 15px;
+        float: left;
+        color: #666;
+    }
+
+    .nav-sub {
+        height: 35px;
+        line-height: 35px;
+        padding-left: 2px;
+    }
+
+    .nav-site {
+        position: absolute;
+        z-index: 411;
+        right: 0;
+        top: 0;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .daily {
+        position: absolute;
+        right: 0;
+        bottom: 7px;
+        color: #999;
+    }
+
+    .daily span {
+        color: #ff5c00;
+    }
+
+    .game{
+        position: relative;
+        width: 1100px;
+        margin: 0 auto;
+    }
+</style>
+
+</html>
